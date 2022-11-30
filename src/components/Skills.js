@@ -2,53 +2,48 @@ import { useEffect } from "react";
 import { createSkillsDot, dotResize } from "../utils";
 
 export const DesignSkills = () => {
-  return (
-    <div className="section skills" id="section-skills">
-      <div className="content">
-        {/* title */}
-        <div className="title">
-          <div className="title_inner">Design Skills</div>
-        </div>
-        {/* skills items */}
-        <div className="skills percent content-box">
-          <ul>
-            <li>
-              <div className="name">Web Design</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "90%" }}>
-                  <span className="percent">90%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Illustrations</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Photoshop</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "95%" }}>
-                  <span className="percent">95%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">Graphic Design</div>
-              <div className="progress ">
-                <div className="percentage" style={{ width: "85%" }}>
-                  <span className="percent">85%</span>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
+  // return (
+  //   <div className="section skills" id="section-skills">
+  //     <div className="content">
+  //       {/* title */}
+  //       <div className="title">
+  //         <div className="title_inner">Design Skills</div>
+  //       </div>
+  //       {/* skills items */}
+  //       <div className="skills percent content-box">
+  //         <ul>
+  //           <li>
+  //             <div className="name">Web Design</div>
+  //           </li>
+  //           <li>
+  //             <div className="name">Illustrations</div>
+  //             <div className="progress ">
+  //               <div className="percentage" style={{ width: "70%" }}>
+  //                 <span className="percent">70%</span>
+  //               </div>
+  //             </div>
+  //           </li>
+  //           <li>
+  //             <div className="name">Photoshop</div>
+  //             <div className="progress ">
+  //               <div className="percentage" style={{ width: "95%" }}>
+  //                 <span className="percent">95%</span>
+  //               </div>
+  //             </div>
+  //           </li>
+  //           <li>
+  //             <div className="name">Graphic Design</div>
+  //             <div className="progress ">
+  //               <div className="percentage" style={{ width: "85%" }}>
+  //                 <span className="percent">85%</span>
+  //               </div>
+  //             </div>
+  //           </li>
+  //         </ul>
+  //       </div>
+  //     </div>
+  //   </div>
+  // );
 };
 export const LanguagesSkills = () => {
   useEffect(() => {
@@ -75,26 +70,18 @@ export const LanguagesSkills = () => {
               </div>
             </li>
             <li>
-              <div className="name">German</div>
+              <div className="name">Urdu</div>
               <div className="progress">
-                <div className="percentage" style={{ width: "70%" }}>
-                  <span className="percent">70%</span>
+                <div className="percentage" style={{ width: "100%" }}>
+                  <span className="percent">100%</span>
                 </div>
               </div>
             </li>
             <li>
-              <div className="name">Italian</div>
+              <div className="name">Punjabi</div>
               <div className="progress">
                 <div className="percentage" style={{ width: "55%" }}>
                   <span className="percent">55%</span>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div className="name">French</div>
-              <div className="progress">
-                <div className="percentage" style={{ width: "85%" }}>
-                  <span className="percent">85%</span>
                 </div>
               </div>
             </li>
@@ -200,19 +187,10 @@ export const KnowledgeSkills = () => {
               <div className="name">iOS and android apps</div>
             </li>
             <li>
-              <div className="name">Create logo design</div>
-            </li>
-            <li>
-              <div className="name">Design for print</div>
-            </li>
-            <li>
               <div className="name">Modern and mobile-ready</div>
             </li>
             <li>
               <div className="name">Advertising services include</div>
-            </li>
-            <li>
-              <div className="name">Graphics and animations</div>
             </li>
             <li>
               <div className="name">Search engine marketing</div>

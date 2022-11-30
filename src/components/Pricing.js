@@ -13,21 +13,21 @@ const Pricing = () => {
               <div className="icon">
                 <span className="fas fa-star" />
               </div>
-              <div className="name">Basic</div>
+              <div className="name">Consultation Call</div>
               <div className="amount">
                 <span className="number">
                   <span className="dollar">$</span>
-                  <span>39</span>
-                  <span className="period">hour</span>
+                  <span>100</span>
+                  <span className="period">Session</span>
                 </span>
               </div>
               <div className="feature-list">
                 <ul>
                   <li>Web Development</li>
-                  <li>Advetising</li>
-                  <li>Game Development</li>
-                  <li className="disable">Music Writing</li>
-                  <li className="disable">Photography</li>
+                  <li>Dev Ops</li>
+                  <li>Software Engineering</li>
+                  <li>Web Design</li>
+                  <li>Mobile App Design and Development</li>
                 </ul>
               </div>
               <div className="bts">
@@ -47,19 +47,17 @@ const Pricing = () => {
               <div className="amount">
                 <span className="number">
                   <span className="dollar">$</span>
-                  <span>59</span>
+                  <span>27</span>
                   <span className="period">hour</span>
                 </span>
               </div>
               <div className="feature-list">
                 <ul>
                   <li>Web Development</li>
-                  <li>Advetising</li>
-                  <li>Game Development</li>
-                  <li>Music Writing</li>
-                  <li>
-                    Photography <strong>new</strong>
-                  </li>
+                  <li>Dev Ops</li>
+                  <li>Software Engineering</li>
+                  <li>Web Design</li>
+                  <li>Mobile App Design and Development</li>
                 </ul>
               </div>
               <div className="bts">

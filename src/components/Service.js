@@ -15,20 +15,8 @@ const Service = () => {
               </div>
               <div className="name">Web Development</div>
               <div className="text">
-                Modern and mobile-ready website that will help you reach all of
-                your marketing.
-              </div>
-            </div>
-          </div>
-          <div className="service-col">
-            <div className="service-item content-box">
-              <div className="icon">
-                <span className="fas fa-music" />
-              </div>
-              <div className="name">Music Writing</div>
-              <div className="text">
-                Music copying, writing, creating, transcription, arranging and
-                services.
+                Modern and mobile-ready website and application that will help you reach all of
+                your customers or target audience.
               </div>
             </div>
           </div>
@@ -37,10 +25,9 @@ const Service = () => {
               <div className="icon">
                 <span className="fas fa-ad" />
               </div>
-              <div className="name">Advetising</div>
+              <div className="name">Digital Marketing</div>
               <div className="text">
-                Advertising services include television, radio, print, mail, and
-                web apps.
+                Advertising services includes SEO, SMM and PPC.
               </div>
             </div>
           </div>
@@ -59,23 +46,11 @@ const Service = () => {
           <div className="service-col">
             <div className="service-item content-box">
               <div className="icon">
-                <span className="fas fa-camera" />
-              </div>
-              <div className="name">Photography</div>
-              <div className="text">
-                Our in-house photography services team made up of professional
-                photographers.
-              </div>
-            </div>
-          </div>
-          <div className="service-col">
-            <div className="service-item content-box">
-              <div className="icon">
                 <span className="fas fa-mobile-alt" />
               </div>
-              <div className="name">Android Application</div>
+              <div className="name">Mobile Application Development</div>
               <div className="text">
-                Games, playing music, handle network transactions, interacting
+                Cross platform mobile apps like Games, playing music, handle network transactions, interacting
                 content etc.
               </div>
             </div>
