@@ -6,7 +6,7 @@ const Menu = () => (
     <div className="logo hover-masks-logo">
       <a
       href="https://drive.google.com/file/d/1NZI-ZxpH4kKzVRITwzx16IGVICGD9o04/view?usp=share_link" 
-      download target="_blank">
+      download target="_blank" rel='noopener noreferrer'>
         <span className="mask-lnk">
           Ibrahim <strong> Ahmed</strong>
         </span>
@@ -37,7 +37,7 @@ const Menu = () => (
             <li className="menu-item">
               <Link href="/works">
                 <a>
-                  <span className="mask-lnk">Works</span>
+                  <span className="mask-lnk">Portfolio</span>
                 </a>
               </Link>
             </li>

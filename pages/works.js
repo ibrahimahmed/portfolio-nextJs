@@ -8,11 +8,11 @@ const ItemIsotope = dynamic(() => import("../src/components/ItemIsotope"), {
 
 const Works = () => {
   const typingAnimation = [
-    "<span class='typed-bread'><a href='#'>Home</a> / Works</span>",
+    "<span class='typed-bread'><a href='#'>Home</a> / Portfolio</span>",
   ];
   return (
     <Layout>
-      <DefaultPageBanner pageName={"works"} typingData={typingAnimation} />
+      <DefaultPageBanner pageName={"Portfolio"} typingData={typingAnimation} />
       <div className="section works" id="next_section">
         <div className="content">
           <ItemIsotope />
