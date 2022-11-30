@@ -43,31 +43,40 @@ const Testimonials = () => {
             <div className="swiper-wrapper">
               <SwiperSlide className="swiper-slide">
                 <div className="reviews-item content-box">
-                  <div className="image">
-                    <img src="images/rev1.jpg" alt="" />
-                  </div>
                   <div className="info">
-                    <div className="name">Helen Floyd</div>
-                    <div className="company">Art Director</div>
+                    <div className="name">Amr Eid</div>
+                    <div className="company">Pharmacy Owner</div>
                   </div>
                   <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ibrahim makes things happen!
+                    His ability to listen and understand his clients’ needs
+                    allows him to consult effectively.
+                    He leads by example and is a trusted colleague.
                   </div>
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-slide">
                 <div className="reviews-item content-box">
-                  <div className="image">
-                    <img src="images/rev1.jpg" alt="" />
-                  </div>
                   <div className="info">
-                    <div className="name">Helen Floyd</div>
-                    <div className="company">Art Director</div>
+                    <div className="name">Faizan ul Haq</div>
+                    <div className="company">Software Developer</div>
                   </div>
                   <div className="text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Ibrahim is an enthusiastic, passionate and professional person in the software development,
+                    project management and the related areas
+                    having continuous effort to be the best in his professional doings.
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="swiper-slide">
+                <div className="reviews-item content-box">
+                  <div className="info">
+                    <div className="name">Athar Mehmood</div>
+                    <div className="company">Senior Software Developer</div>
+                  </div>
+                  <div className="text">
+                  Ibrahim is a passionate and expert developer who has a great grip on Node js and React js.
+                  It was a great experience working with him and I highly recommend him for software dev-related jobs/tasks.
                   </div>
                 </div>
               </SwiperSlide>
