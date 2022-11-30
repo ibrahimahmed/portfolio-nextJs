@@ -2,9 +2,11 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 
 const Menu = () => (
-  <Fragment>
+ <Fragment>
     <div className="logo hover-masks-logo">
-      <a href="#">
+      <a
+      href="https://drive.google.com/file/d/1NZI-ZxpH4kKzVRITwzx16IGVICGD9o04/view?usp=share_link" 
+      download target="_blank">
         <span className="mask-lnk">
           Ibrahim <strong> Ahmed</strong>
         </span>
